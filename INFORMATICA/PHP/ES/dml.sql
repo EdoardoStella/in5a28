@@ -1,0 +1,26 @@
+INSERT INTO ES_localita(cap, nome, prov) VALUES('46035', 'Ostiglia', 'MN');
+INSERT INTO ES_localita(cap, nome, prov) VALUES('46020', 'Quingentole', 'MN');
+INSERT INTO ES_localita(cap, nome, prov) VALUES('46026', 'Quistello', 'MN');
+INSERT INTO ES_localita(cap, nome, prov) VALUES('46027', 'San Benedetto Po', 'MN');
+INSERT INTO ES_localita(cap, nome, prov) VALUES('46036', 'Revere', 'MN');
+INSERT INTO ES_localita(cap, nome, prov) VALUES('46028', 'Sermide', 'MN');
+INSERT INTO ES_localita(cap, nome, prov) VALUES('46020', 'Magnacavallo', 'MN');
+
+-- INSERIMENTO DEI CLIENTI
+INSERT INTO ES_cliente(ragioneSociale,indirizzo, numTelefono, partitaIva, idAgente, fido, idLocalita)
+VALUES('Pradella Francesco','via Roma, 5', '3558965723', '', '125', '2000', 2);
+
+INSERT INTO ES_cliente(ragioneSociale,indirizzo, numTelefono, partitaIva, idAgente, fido, idLocalita)
+VALUES('Grossi Filippo','via Schiappa, 13', '3558965756', '', '125', '1500', 7);
+
+INSERT INTO ES_cliente(ragioneSociale,indirizzo, numTelefono, partitaIva, idAgente, fido, idLocalita)
+VALUES('Menghini Arianna','via Baracca, 20', '3898965723', '', '100', '2250', 6);
+--
+INSERT INTO ES_cliente(ragioneSociale,indirizzo, numTelefono, partitaIva, idAgente, fido, idLocalita)
+VALUES('Besutti Matteo','via Arisca, 21', '3896325723', '', '100', '1000', 3);
+
+INSERT INTO ES_cliente(ragioneSociale,indirizzo, numTelefono, partitaIva, idAgente, fido, idLocalita)
+VALUES('Hasmi Muqeet Ali','via Sociale, 12', '4568965723', '', '100', '1700', 4);
+
+INSERT INTO ES_cliente(ragioneSociale,indirizzo, numTelefono, partitaIva, idAgente, fido, idLocalita)
+VALUES('Schiattarella Giorgia','via Lungomare, 7', '3338965723', '', '250', '2500', 1);
